@@ -26,8 +26,6 @@ services:
     nginx:
       image: "tonymall/multi-nginx-10-14"
       men-limit: 128m
-      men-limit: 128m
-      men-limit: 128m
       hostname: nginx
       ports:
         - "80:80"
